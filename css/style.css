@@ -22,6 +22,7 @@ body{
 .caixinha{
     width: 45%;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     background-color: white;
     border:  #ccc;
@@ -53,17 +54,18 @@ body{
     /* align-items: center; */
 }
 .foto_user{
-    width:80%;
+    width: 80px;
     margin:auto;
 }
 
 .redes_sociais{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
 }
 
 .icone_social{
-    width: 15%;
+    width: 30px;
     padding: 2px;
 }
